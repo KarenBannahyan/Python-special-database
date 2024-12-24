@@ -191,7 +191,7 @@ def check_client_key(username, key_str):
             else:
                 messagebox.showerror("Error", "Invalid key!")
         else:
-            messagebox.showerror("Eror", f"Username '{username}' not found!")
+            messagebox.showerror("Error", f"Username '{username}' not found!")
 
     except Exception as e:
         messagebox.showerror("Error", f"Error: {e}")
